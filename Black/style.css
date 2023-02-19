@@ -1,0 +1,156 @@
+:root {
+    --colore-titoli: #2B9DF4;
+    --colore-testi: #ffffff;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Jura', sans-serif;
+}
+
+
+body{
+    background-color: black;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin-right: 0px;
+}
+.link{
+    color: #5b5b5b;
+    font-family: 'jura', sans-serif;
+    font-size: x-small;
+}
+.linea_nav{
+    padding-top: 2vh;
+    border-bottom: 2px solid #5b5b5b;
+}
+.primaluna{
+    position: relative;
+}
+.prima_luna_title{
+    color:var(--colore-testi);
+    font-family: 'Orbitron', sans-serif;
+    position: absolute;
+    z-index: 2;
+    padding-right: 0px;
+    margin-right: 21%;
+    
+}
+.prima_luna_img{
+    z-index: 1;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.923), rgba(255, 255, 255, 0.43), rgba(0, 0, 0, 0.916));
+}
+.lorem1{
+    font-size:xx-small;
+    font-family: 'jura', sans-serif;
+}
+.blue_arrow{
+    margin-top: 40%;
+    position: absolute;
+    z-index: index 2;;
+}
+.card_title{
+    color:var(--colore-testi);
+    font-family: 'jura', sans-serif;
+    font-size: x-small;
+}
+.card_num{
+    color:var(--colore-testi)
+}
+.lineaBlu{
+    border-bottom: #2B9DF4 3px solid!important;
+}
+.fourCards{
+    width: 100vw;
+    height: 20vh;
+    margin-right: 0px!;
+    margin-left: 0px!;
+}
+.box_moon2{
+    margin-bottom: 20vh;
+}
+.moon2_title{
+    color: var(--colore-titoli);
+    font-size: medium;
+}
+.moon2_txt{
+    color: var(--colore-testi);
+    font-size: small;
+}
+.card5_txt{
+    color: var(--colore-testi);
+    font-size: x-small;
+    
+}
+.card5_sx{
+    margin-bottom: 20vh;
+}
+.card5_middleTitle{
+    display: flex;
+    justify-content: center;
+}
+.card5_middle{
+    margin-top: 20vh;
+    text-align: center;
+}
+.card5_dx{
+    margin-bottom: 20vh;
+}
+.card5_titleDx{
+    display: flex;
+    justify-content: end;
+}
+.jetbox{
+    font-family: 'Orbitron', sans-serif;
+}
+.jet_title{
+    font-family: 'Orbitron', sans-serif;
+    color: var(--colore-titoli);
+    font-size: medium;
+}
+.jet_txt{
+    font-family: 'Jura', sans-serif;
+    color: var(--colore-testi);
+    font-size: x-small;
+    margin-bottom: 30vh;
+}
+
+.card6_sx h5{
+    font-family: 'Orbitron', sans-serif;
+    color: var(--colore-titoli);
+    font-size: medium;
+    margin-bottom: 3vh;
+}
+.card6_sx p{
+    font-family: 'Jura', sans-serif;
+    color: var(--colore-testi);
+    font-size: x-small;
+    margin-bottom: 3vh;
+}
+.card6_but_text{
+    color: var(--colore-testi);
+    position: absolute;
+    margin-right: 2vw;
+    margin-top: 1vh;
+
+}
+.card6_but{
+    position: relative;
+}
+.card6_but_frame{
+    width: 7vw;
+    height: 4vh;
+}
+.card6{
+    margin-top: 15vh;
+    margin-bottom: 30vh;
+}
+.sunrise_bg{
+    background-image: url(/media/sunrise-1765027_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 80vh;
+    width: 100vw;
+}
+
+

@@ -1,0 +1,111 @@
+*{
+    font-family: 'Rajdhani', sans-serif;
+    
+}
+body{
+    background-color: #ececec;
+}
+.font_main{
+    font-family: 'Nova Square', cursive;
+}
+
+
+.montagna1{
+    position: absolute;
+
+}
+.sfondo{
+    background-image: linear-gradient(rgba(255,255,255,1),rgba(255,255,255,0.02)) ,url(./media/switzerland-862870_1920.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.scritta1{
+    font-size: 60px;
+    letter-spacing: 30px;
+    color: darkred;
+}
+.virgola1{
+    font-family: 'Nova Square', cursive;
+}   
+.virgola2{
+    font-family: 'Nova Square', cursive;
+}   
+.testo_2{
+    display: flex;
+}
+.testo_2::before{
+    content: open-quote;
+    position: absolute;
+    font-size: 50px;
+}
+.testo_2::after{
+    content: close-quote;
+    font-size: 50px;
+    position: absolute;
+
+}
+.linea1{
+    position:relative;
+    border-top: 4px solid  darkred;
+}
+/*.test::before {
+    content: open-quote;
+    font-size: 50px;
+    color: darkred;
+    position: absolute;
+    right: 25vw;
+    top: 2vh;
+
+}
+.test::after{
+    content: close-quote;
+    font-size: 50px;
+    color: darkred;
+    position: absolute;
+    left: 25vw;
+    bottom: 2vh;
+}*/
+.quote2{
+    position: absolute;
+    margin-right: 25vh;
+}
+.bottone1{
+    background-color:rgb(103, 26, 26);
+    color: #fff;
+    height: 6%;
+    position: absolute;
+    width: 24%;
+}
+.snow{
+    color:darkred;
+}
+.bodytree2{
+    width: 100vw;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.img_tree2{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.row_tree2{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.box_btn{
+    background-color: #ececec;
+    position: relative;
+    width: 100%;
+}
+.lorem_colonna{
+    color: darkred;
+    font-size: 50px !important;
+}
+.colonna_sx{
+    border-right: 2px solid darkred;
+}

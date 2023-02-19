@@ -1,0 +1,329 @@
+:root{
+    --primary-color: #06396c;
+    --sec-color: #ffffff;
+    --font-family: 'Electrolize', sans-serif;
+    --font-family: 'Lato', sans-serif;
+}
+body{
+    color: var(--primary-color);
+    font-family: 'Electrolize', sans-serif;
+}
+.titolo_header{
+    color: var(--sec-color);
+    font-family: 'Electrolize', sans-serif;
+    font-size:xx-large;
+    position: absolute;
+    font-size:7vh;
+    font-weight: bolder;
+    
+}
+.div_titolo_header{
+    position: absolute;
+    margin-right: 9vw;
+    margin-bottom: 4vh;
+    
+}
+.img_header{
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-image: url(/media/header.jpg);
+    opacity:0.5;
+    position: relative;
+    background-attachment: fixed;
+}
+.testata{
+    background-color: var(--primary-color);
+    position: relative;
+}
+.ingr{
+    width: 5vw;
+    height: 3vh;
+    background-color: var(--primary-color);
+}
+.bg_navBar{
+    background-color: var(--primary-color);
+    color: var(--sec-color) !important;
+}
+.lorem_nav{
+    color: var(--sec-color);
+}
+.mg_title{
+    font-weight: bold;
+}
+.mg_txt{
+    display: flex;
+    position: relative;
+}
+.mg_txt::before {
+    font-family: 'Electrolize', sans-serif;
+    content: open-quote;
+    font-size: 12vh;
+    color: var(--primary-color);
+    position: absolute;
+    left: -2vw;
+    top: -6vh;
+}
+.mg_txt::after {
+    font-family: 'Electrolize', sans-serif;
+    content: close-quote;
+    font-size: 10vh;
+    color: var(--sec-color);
+    position: absolute;
+    right: 3vw;
+    top: -10vh;
+}
+.lrm_mg{
+    font-weight: bold;
+}
+.lrm_mg_txt{
+    font-size: smaller;
+}
+/*POWER LOREM*/
+.img_pwr_lrm{
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-image: url(/media/power-plant-4712830_1280.jpg);
+    opacity:0.5;
+    position: relative;
+    background-attachment: fixed;
+    z-index: 1;
+}
+.pwr_lrm_up{
+    background-color: var(--primary-color);
+    color: var(--sec-color)!important;
+    position: relative;
+}
+.div_titolo_pwr_lrm{
+    position: absolute;
+    margin-right: 9vw;
+    margin-bottom: 4vh;   
+    color: var(--sec-color);
+    width: 90vw;
+    height: 7vh;
+}
+.pwr_fourCards{
+    position: absolute;
+    width: 100%;
+    margin-top: 2vh;
+}
+.pwr_lrm_cards{
+    height: 68vh;
+}
+
+.card_num{
+    margin: 0%;
+    font-size: small;
+}
+.card_title{
+    margin: 0%;
+    font-size: x-small;
+}
+/*            LOREM SQUARE BLU          */
+.box_blue{
+    background-color: var(--primary-color);
+    outline: 2px solid #ffffff;
+    width: 430px;
+    height: 55%;
+    position: absolute;
+    z-index: 3;
+    color: var(--sec-color);
+    margin-left: 2vw;
+}
+.box_blue p{
+    margin-top: 5vh;
+    font-size: x-small;
+    width: 270px;
+}
+.cont_box{
+    width: 200%;
+    height: 100%;
+    position: absolute;
+    justify-content: space-between;
+
+}
+.row_box_blue{
+    height: 100%;
+    width: 270px;
+
+}
+.img_box_blue{
+    height: 250px;
+    width: 350px;
+}
+.box_white{
+background-color: var(--sec-color);
+    outline: 2px solid #ffffff;
+    width: 330px;
+
+    z-index: 4;
+    color: var(--primary-color);
+
+    margin-top:2px;
+}
+.box_white p{
+    font-size: x-small;
+    margin-top: 10vh;
+}
+.box_pwr_lorem{
+    height: 100%;
+}
+.descr{
+    color: var(--primary-color);
+}
+.descr p{
+    font-size: small;
+}
+.btn_color{
+    background-color: var(--primary-color);
+    color: var(--sec-color);
+    border-radius: 0;
+    width: 130px;
+}
+.ad_elit_sx p{
+    font-size: small;
+}
+.ad_elite_dx{
+    height: 100%;
+}
+.shadow_box {
+    background-image: linear-gradient(to right, var(--primary-color), var(--sec-color));
+    width: 25%;
+}
+.box {
+    width: 300%;
+    height: 18vh;
+    padding: 2vh;
+    z-index: 1;
+
+}
+.card_normal {
+    background-image: url(https://picsum.photos/400);
+    width: 100%;
+    opacity: 0.9;  
+    z-index: 2;  
+
+}
+.card_normal2 {
+    background-image: url(https://picsum.photos/401);
+    width: 100%;
+    opacity: 0.9;  
+    z-index: 2;  
+}
+.card_normal3 {
+    background-image: url(https://picsum.photos/402);
+    width: 100%;
+    opacity: 0.9;  
+    z-index: 2;  
+}
+.card_normal4 {
+    background-image: url(https://picsum.photos/403);
+    width: 100%;
+    opacity: 0.9;  
+    z-index: 2;  
+}
+.st_title{
+    width: 100%;
+    height: 30vh;
+    background-color: var(--primary-color);
+    color: var(--sec-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.sf_down{
+    position: absolute;
+    z-index:2;
+    height: 100%;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3vh;
+}
+.st_stuff_container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.card_six6{
+    background-image: url(/media/nuclear.png);
+    background-size: cover;
+    z-index: 2; 
+    opacity: 0.6;
+    height: 20vh;
+}
+.shadow_box2{
+    
+    color: var(--sec-color);
+    z-index: 1;
+}
+.box_stuff{
+    width: 100%;
+    z-index: 1;
+    background-color: var(--primary-color);
+}
+.card_six_tl{
+    color: var(--sec-color);
+}
+.dw_cards{
+    outline: solid 2px;
+}
+.cont_des{
+    width: 100%;
+}
+.row_des{
+    width: 100%;
+}
+.bar1{
+    border-bottom: 6px solid var(--primary-color);
+    width: 40%;
+}
+.bar2{
+    border-bottom: 6px solid var(--primary-color);
+    width: 49%;
+}
+.bar3{
+    border-bottom: 6px solid var(--primary-color);
+    width: 70%;
+}
+.bar4{
+    border-bottom: 6px solid var(--primary-color);
+    width: 85%;
+}
+.bar5{
+    border-bottom: 6px solid var(--primary-color);
+    width: 65%;
+}
+.des_box_blue p{
+    margin-top: 5vh;
+    font-size: x-small;
+    width: 270px;
+}
+.des_box_blue{
+    background-color: var(--primary-color);
+    width: 430px;
+    height: 65%;
+    position: absolute;
+    z-index: 3;
+    color: var(--sec-color);
+    margin-top: -13vh;
+}
+.row_des_box_blue{
+    width: 100%;
+}
+footer {
+    background-color: black;
+    height: 75vh;
+    width:100%;
+    position: relative;
+    z-index: 1;
+}
+.cont_footer{
+    height: 90%;
+}
+.text_footer{
+    margin-top: -4vh;
+}
